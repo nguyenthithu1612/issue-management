@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('admin', function () {
     return view('admin_template');
 });
+
+Route::get('/issues', function () {
+    return view('issues.create');
+});
